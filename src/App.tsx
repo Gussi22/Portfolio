@@ -1,10 +1,12 @@
 import "./App.css";
-import { LoggedIn } from "./components/state/LoggedIn";
+import { Container } from "./components/Container";
+import { Counter } from "./components/state/Counter";
 
 function App() {
   return (
     <div className="App">
-      <LoggedIn />
+      <Counter />
+      <Container styles={{ margin: 10 }}></Container>
     </div>
   );
 }
